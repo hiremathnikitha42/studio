@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.studio-container{
+  width:96%;
+  height:622px;
+  flex-direction:row;
+  background-color: whitesmoke;
+  margin:2%;
+  display:flex;
+}
+
+.studio-image-box{
+  background: url(C:\Users\SHAMBHUPC\studio\src\tiger.jpg);
+  width:42%;
+  height:88%;
+  position: absolute;
+  top:8%;
+  left:6%;
+}
+
+.studio-details-container{
+  width:46%;
+  height:88%;
+  position: absolute;
+  left:48%;
+  margin:2%;
+  
+}
+
+.studio-tattoo-title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  display:flex;
+  color:black;
+  width:59%;
+  height:5%;
+  height:auto;
+}
