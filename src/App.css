@@ -35,7 +35,7 @@
 }
 
 .studio-image-box{
-  background: url(C:\Users\SHAMBHUPC\studio\src\tiger.jpg);
+  background: url(C:\Users\Nikitha\Desktop\projects\studio\src\tiger.jpg);
   width:42%;
   height:88%;
   position: absolute;
@@ -57,7 +57,13 @@
   font-size: 24px;
   display:flex;
   color:black;
-  width:59%;
+  width:60%;
   height:5%;
-  height:auto;
+}
+
+.studio-tags{
+  display:flex;
+  width:20%;
+  height:30%;
+  background-color: whitesmoke;
 }

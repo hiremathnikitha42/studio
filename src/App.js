@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import tags from './tags';
+
 
 class App extends React.Component{
   render(){
@@ -11,7 +13,9 @@ class App extends React.Component{
           <div className="studio-tattoo-title">
             TIGER, GIRL FACE, TIGER SKIN
           </div>
-
+          <div className="studio-tags">
+            <tags></tags>
+          </div>
         </div>
       </div>
     );
