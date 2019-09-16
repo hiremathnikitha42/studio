@@ -1,16 +1,18 @@
 import React from 'react';
 import './tags.css';
 
-class tags extends React.Component{
-    render(){
+const Tags = props =>{
         return(
-        <div className="tags-container">
-            <div className="tags">
-                flower
+            <div className="tags-box">
+              <div className="tags">
+                {props.tags}
+               </div>
+               
             </div>
-        </div>
+            
+    
         );
-    }
+    
 }
 
-export default tags;
+export default Tags;

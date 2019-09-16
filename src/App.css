@@ -57,13 +57,100 @@
   font-size: 24px;
   display:flex;
   color:black;
-  width:60%;
-  height:5%;
+  width:63%;
+  height:7%;
 }
 
 .studio-tags{
   display:flex;
-  width:20%;
-  height:30%;
+  width:62%;
+  height:23%;
   background-color: whitesmoke;
+  flex-wrap: wrap;
+}
+
+.pricetag{
+  position: absolute;
+  margin:0 5px 0 10px;
+  height:26px;
+  border-radius: 0 5px 5px 0;
+  padding: 0 22px 0 15px;
+  background:black;
+  width:8%;
+  left:89%;
+}
+.pricetag:after{
+  position:absolute;
+align-self: center;
+  font-size:19px;
+  content:"5000";
+  color:whitesmoke;
+}
+.pricetag:before{
+  position:absolute;
+  content:"₹";
+  color:white;
+  text-shadow: 0 0 1px #333;
+  font-size:19px;
+  line-height:2px;
+  text-indent:12px;
+  left:-15px;
+  width: 1px;
+  height:0px;
+  border-right:14px solid black;
+  border-top:  13px solid transparent;
+  border-bottom:  13px solid transparent;
+}
+.studio-labels{
+  display:flex;
+  width:50%;
+  height:auto;
+  margin-top:3%;  
+}
+.uniquedesign{
+  position:relative;
+  margin:0 5px 0 10px;  
+  displaY:inline-block;
+  height:25px;
+  border-radius: 0 5px 5px 0;
+  padding: 0 25px 0 15px;
+  background:purple;
+  border: 0 solid #C7D2D4;
+  width:24%;
+}
+.uniquedesign:after{
+  position:absolute;
+  right:0;
+  margin:4px 10px;
+  font-size:12px;
+  content:"UNIQUE DESIGN";
+  color:whitesmoke;
+}
+.uniquedesign:before{
+  position:absolute;
+  content:"\25CF";
+  color:white;
+  text-shadow: 0 0 1px #333;
+  font-size:11px;
+  line-height:0px;
+  text-indent:-21px;
+  left:107px;
+  width: 1px;
+  height:0px;
+  border-left:19px solid purple;
+  border-top:  13px solid transparent;
+  border-bottom:  13px solid transparent;
+}
+
+.painlevel{
+  width:18%;
+  height:auto;
+  background-color: orange;
+  position: absolute;
+  left:25%;
+ border-radius: 6%;
+ text-align: center;
+ font-size:14px;
+ padding:0.6%;
+ color:whitesmoke;
 }

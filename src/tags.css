@@ -1,7 +1,24 @@
 
+.tags-box{
+    position: relative;
+    width:12%;
+    height:auto;
+    background-color: lightgray;
+    border-radius: 7%;
+    padding-left: 8%;
+    padding-right: 9%;
+    margin:2%;
+    cursor: pointer;
+    padding-bottom: 4px;
+    padding-top: 5px;
 
+}
 .tags{
-    width:2%;
-    height:3%;
+    position: relative;
+    width:auto;
+    height:auto;
     color: black;
+    align-self: center;
+    text-transform: uppercase;
+    font-size:13px;
 }
