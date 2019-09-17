@@ -1,0 +1,35 @@
+.duration-box{
+    display:flex;
+    width:auto;
+    height:auto;
+    background-color:lightgray;
+    color:black;
+    font-size:11px;
+    text-align: center;
+
+}
+
+.size-box{
+    display:flex;
+    width:auto;
+    height:auto;
+    background-color:lightgray;
+    color:black;
+    font-size:11px;
+    text-align: center;
+}
+
+.body-placement{
+    display:flex;
+    width:auto;
+    height:auto;
+    background-color:lightgray;
+    color:black;
+    font-size:11px;
+    text-align: center;
+}
+
+.Imagebox{
+    display:flex;
+    margin:0%;
+}

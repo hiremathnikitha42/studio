@@ -1,5 +1,6 @@
 import React from 'react';
 import Tags from './tags';
+import Imagedetails from './Imagedetails';
 import './App.css';
 
 
@@ -26,9 +27,13 @@ class App extends React.Component{
           </div>
           <div className="studio-labels">
           <span class="uniquedesign"></span>
-          <div class="painlevel">
-            PAIN LEVEL
+          <div className="painlevel">
+            PAIN LEVEL 4
             </div>
+          </div>
+          <div className="image-details">
+            IMAGE DETAILS
+            <Imagedetails></Imagedetails>
           </div>
         </div>
       </div>

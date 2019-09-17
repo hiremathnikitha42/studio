@@ -35,7 +35,7 @@
 }
 
 .studio-image-box{
-  background: url(C:\Users\Nikitha\Desktop\projects\studio\src\tiger.jpg);
+  background: url(C:\Users\Nikitha\Desktop\projects\studio\src\images\tiger.jpg);
   width:42%;
   height:88%;
   position: absolute;
@@ -104,7 +104,7 @@ align-self: center;
 .studio-labels{
   display:flex;
   width:50%;
-  height:auto;
+  height:7%;
   margin-top:3%;  
 }
 .uniquedesign{
@@ -153,4 +153,12 @@ align-self: center;
  font-size:14px;
  padding:0.6%;
  color:whitesmoke;
+}
+
+.image-details{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+  height:30%;
+  padding: 2%;
 }
