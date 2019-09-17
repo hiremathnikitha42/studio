@@ -8,7 +8,7 @@ class Imagedetails extends React.Component{
             <div className="Imagebox">
             <div className="duration-box">
                 DURATION
-                2 SESSIONS
+                2SESSIONS
             </div>
             <div className="size-box">
                 SIZE

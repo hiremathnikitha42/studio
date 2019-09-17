@@ -9,6 +9,7 @@ class App extends React.Component{
     return(
       <div className="studio-container">
         <div className="studio-image-box">
+          
         </div>
        
         <div className="studio-details-container">
