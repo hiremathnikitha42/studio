@@ -32,10 +32,8 @@ class App extends React.Component{
             PAIN LEVEL 4
             </div>
           </div>
-          <div className="image-details">
-            IMAGE DETAILS
             <Imagedetails></Imagedetails>
-          </div>
+          
         </div>
       </div>
     );

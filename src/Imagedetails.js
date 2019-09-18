@@ -5,18 +5,34 @@ import './Imagedetails.css';
 class Imagedetails extends React.Component{
     render(){
         return(
-            <div className="Imagebox">
+            <div className="image-details-container">
+            IMAGE DETAILS
+            <div className="image-box">
             <div className="duration-box">
-                DURATION
-                2SESSIONS
+             <div className="upper-text">
+                   DURATION
+             </div>
+             <div className="lower-text">
+                2 SESSIONS
+                </div>   
             </div>
             <div className="size-box">
-                SIZE
-                MEDIUM
+            <div className="upper-text">
+            SIZE
+             </div>
+             <div className="lower-text">
+             MEDIUM                
+             </div> 
+                 
             </div>
             <div className="body-placement">
-                BODY PLACEMENT
-                FORE ARM
+            <div className="upper-text">
+                BODY PLACEMENT   
+             </div>
+             <div className="lower-text">
+             FORE ARM
+                </div>
+            </div>
             </div>
             </div>
         );

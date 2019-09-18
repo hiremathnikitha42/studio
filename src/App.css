@@ -155,10 +155,3 @@ align-self: center;
  color:whitesmoke;
 }
 
-.image-details{
-  display:flex;
-  flex-direction:column;
-  width:50%;
-  height:30%;
-  padding: 2%;
-}
