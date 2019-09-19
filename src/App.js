@@ -1,6 +1,7 @@
 import React from 'react';
 import Tags from './tags';
 import Imagedetails from './Imagedetails';
+import Submitted from './Submitted';
 import './App.css';
 
 
@@ -9,7 +10,7 @@ class App extends React.Component{
     return(
       <div className="studio-container">
         <div className="studio-image-box">
-          
+        <img src="/images/tiger.jpg" style={{width:"100%", height:"100%"}} ></img>
         </div>
        
         <div className="studio-details-container">
@@ -33,6 +34,13 @@ class App extends React.Component{
             </div>
           </div>
             <Imagedetails></Imagedetails>
+          <div className="studio-recommended">
+            RECOMMENDED FOR
+          <div className="studio-recommeded-text">
+            Biceps,Male,Medium size 
+          </div>
+          </div>
+          <Submitted></Submitted>
           
         </div>
       </div>

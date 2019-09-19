@@ -1,0 +1,217 @@
+
+.submitted-container{
+    margin:2%;
+
+}
+.submitted-text{
+    color:black;
+    width:10%;
+    height:20%;
+
+}
+.studio-details-box{
+    width:46vw;
+    height:34vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+}
+
+.studio-header{
+    width:100%;
+    height:39%;
+    display:flex;
+    flex-direction: row;
+    margin:1%;
+
+}
+
+.studio-image{
+    width:12%;
+    height:auto;
+    display: flex;
+    margin:0.5%;
+    position: absolute;
+    left:2%;
+    
+}
+
+.checked {
+    color: blue;
+}
+
+.studio-name{
+    display:flex;
+    flex-direction: column;
+    width:38%;
+    height:auto;
+    left:14%;
+    padding: 2%;
+    position: absolute;
+    
+}
+
+.studio-text{
+    width:8vw;
+    font-size:1vw;
+    height:auto;
+    font-weight: bold;
+
+}
+
+.studio-address{
+    width:10vw;
+    height:auto;
+    font-size:0.8vw;
+}
+.star-rating-box{
+    width:6vw;
+    height: auto;
+}
+
+.studio-available{
+    width:35%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    left:64%;  
+    margin:1.3%;
+
+}
+
+.studio-button{
+    width:94%;
+    height:6vh;
+    background-color: blue;
+    text-align: center;
+    border-radius: 3%;
+    margin:2%;
+    cursor: pointer;
+}
+
+.button-text{
+    color:white;
+    width:72%;
+    height:auto;
+    padding: 2%;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left:0%;
+
+
+}
+
+.button-symbol{
+   position: absolute;
+    right:7%;
+    color: white;
+    font-size: 23px;
+    padding: 0%;
+}
+
+.button-note{
+    color:black;
+    width:20vw;
+    height:auto;
+    font-size: 13px;
+    position: relative; 
+    right:27%;
+}
+
+.studio-images{
+    display:flex;
+    flex-direction: row;
+    width:27%;
+    height:17%;
+    position: relative;
+    left:3%;
+}
+
+.faded{
+    position: absolute;
+    z-index:1%;
+}
+
+.vl{
+    border-left:1px solid black;
+    height:100%;
+}
+
+.more-images{
+    display: flex;
+    position: relative; 
+    flex-direction: column;
+    width:23%;
+    height:auto;
+    font-size: 9px;
+    left:3%;
+}
+
+.more-symbol{
+  position: absolute;
+  top:67%;
+  left:28%;
+  font-size:11px;
+}
+
+
+.studio-chat-text{
+    width:35%;
+    height:8%;
+    display:flex;
+    position: relative;
+    left:64%;
+    font-size:10px; 
+    bottom:7%;
+}
+
+.studio-comment-box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:94%;
+    height:27%;
+    padding:1%;
+    border-radius: 2%;
+    position: relative;
+    bottom:4%;
+    left:1%;
+}
+.star-rating-box-comments{
+    position: relative;
+    left:38%;
+}
+.comment-box{
+    display:flex;
+    width:95%;
+    height:64%;
+    border-radius: 3%  
+}
+
+
+.backward-arrow{
+    display:flex;
+    position: relative;
+     width:2%;
+     height:39%;
+     top:28%;
+     left:2%;   
+}
+
+.forward-arrow{
+    display:flex;
+    position: relative;
+    width:5%;
+    height:40%;
+    right:2%;
+    top:22%;
+
+}
+
+.comment-text{
+    text-align: center;
+    font-size: 12px;
+}

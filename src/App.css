@@ -35,12 +35,13 @@
 }
 
 .studio-image-box{
- background: url(images/tiger.jpg);
-  width:42%;
-  height:88%;
+  width:44%;
+  height:100%;
   position: absolute;
-  top:8%;
-  left:6%;
+  top:5.9%;
+  left:4%;
+  margin:0.5%;
+
 }
 
 .studio-details-container{
@@ -155,3 +156,16 @@ align-self: center;
  color:whitesmoke;
 }
 
+.studio-recommended{
+  display: flex;
+  width:36%;
+  height:auto;
+  flex-direction: column;
+  color:black;
+  margin:1.5%;
+}
+
+.studio-recommeded-text{
+  font-size:11px;
+  margin:0.7%;
+}
